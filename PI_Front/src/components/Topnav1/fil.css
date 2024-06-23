@@ -1,0 +1,124 @@
+.topnav1 {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--topnav-height);
+    position: fixed;
+    top: 0;        
+    width: 100%;     
+    z-index: 1000; 
+    background-color: #fff; 
+}
+.logo-container {
+
+    display: flex;
+    align-items: center;
+  }
+  .logo-container-home {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .home {
+    max-width: 500px;
+    max-height: 200px;
+    margin-left: 40px;
+    margin-top: 77px;
+    border-radius: 10px;
+  }
+  .logo {
+    max-width: 180px;
+    max-height: 60px;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    border-radius: 50%;
+  }
+  .scc {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .scc .s1 {
+    font-size: 20px;
+  }
+  .s1, .s2 {
+    color: black !important;
+}
+  .scc .s2 {
+    font-size: 9px;
+  }
+  
+
+.topnav__search {
+    position: relative;
+    height: 50px;
+    background-color: var(--main-bg);
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.topnav__search > input {
+    height: 100%;
+    width: 100%;
+    padding: 10px 60px 10px 20px;
+    font-size: 1rem;
+    border-radius: var(--border-radius);
+    color: var(--txt-color);
+    background-color: var(--main-bg);
+}
+
+.topnav__search > i {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+}
+
+.topnav__right {
+    display: flex;
+    align-items: center;
+}
+
+.topnav__right-item ~ .topnav__right-item {
+    margin-left: 30px;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.notification-item:hover {
+    background-color: var(--second-bg);
+}
+
+.notification-item > i {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.topnav__right-user {
+    display: flex;
+    align-items: center;
+}
+
+.topnav__right-user__image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.topnav__right-user__image > img {
+    width: 100%;
+}
+
+.topnav__right-user__name {
+    font-size: 1rem;
+    font-weight: 600;
+}

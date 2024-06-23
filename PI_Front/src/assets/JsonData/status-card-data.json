@@ -1,0 +1,24 @@
+
+[
+    
+    {
+        "icon": "bx bx-group",
+        "count": "6",
+        "title": "les étudiants"
+    },
+    {
+        "icon": "bx bx-crown",
+        "count": "5",
+        "title": "campagne d orientation"
+    },
+    {
+        "icon": "bx bx-select-multiple",
+        "count": "7",
+        "title": "choix filière"
+    },
+    {
+        "icon": "bx bx-medal",
+        "count": "1",
+        "title": "Grid d evaluation "
+    }
+]
